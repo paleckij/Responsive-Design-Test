@@ -6,14 +6,6 @@
 	box-sizing: border-box;
 }
 
-/*Видалити коли буде готовий сайт*/
-
-body {
-	min-width: 1280px;
-}
-
-/*Видалити коли буде готовий сайт*/
-
 @font-face {
     font-family: 'league_gothicregular';
     src: url('../fonts/league-gothic/leaguegothic-regular-webfont.woff2') format('woff2'),
@@ -46,24 +38,50 @@ body {
 }
 
 .wrapper {
-	border: 1px solid black;
 	width: 960px;
 	margin: 0 auto;
 }
 
 .inner-mountains {
-	/*border: 1px solid red;*/
 	background: url(../img/bg-header.jpg) no-repeat;
 	padding-bottom: 165px;
 }
 
 header {
-	/*border: 1px solid green;*/
 	padding: 70px 0 170px 0;
 }
 
+header img {
+	float: left;
+}
+
+.verx-menu {
+	float: right;
+	margin-top: 8px;
+}
+
+.verx-menu li {
+	float: left;
+	margin-right: 45px;
+}
+
+.verx-menu li:last-child {
+	margin-right: 0;
+}
+
+.verx-menu a {
+	font-family: 'league_gothicregular';
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.verx-menu li:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em #fff;
+}
+
 .banner {
-	/*border: 1px solid yellow;*/
 	background: rgba(0, 0, 0, 0.2);
 }
 
@@ -106,7 +124,6 @@ h1 {
 }
 
 .about-company {
-	border: 1px solid red;
 	float: left;
 	width: 280px;
 	margin-right: 59px;
@@ -118,7 +135,6 @@ h1 {
 }
 
 .about-company a, .updates a {
-	border: 1px solid green;
 	display: block;
 	text-align: right;
 	margin-right: 13px;
@@ -145,7 +161,6 @@ h1 {
 }
 
 .about-company h5 {
-	/*border: 1px solid green;*/
 	margin-bottom: 18px;
 	position: relative;
 	font-family: 'league_gothicregular';
@@ -155,7 +170,6 @@ h1 {
 }
 
 .about-company p {
-	/*border: 1px solid green;*/
 	margin-bottom: 27px;
 	font-family: 'open_sanslight';
 	color: #fff;
@@ -169,7 +183,6 @@ h1 {
 }
 
 .starts-here, .updates {
-	border: 1px solid red;
 	float: left;
 }
 
@@ -308,4 +321,87 @@ li.active {
 
 .logos {
 	text-align: center;
+}
+
+.inner-footer {
+	padding: 100px 0;
+	background-color: #ececec;
+}
+
+.pigbuller {
+	float: left;
+	width: 280px;
+	margin-right: 59px;
+}
+
+.pigbuller:last-child {
+	margin-right: 0;
+}
+
+.pigbuller-1 h5, .pigbuller-2 h5 {
+	font-family: 'league_gothicregular';
+	text-transform: uppercase;
+	color: #454545;
+	font-size: 48px;
+}
+
+.pigbuller-2 h5 {
+	font-size: 30px;
+}
+
+.pigbuller-1 span {
+	color: #b9b9b9;
+}
+
+.pigbuller-1-1 {
+	font-family: 'georgia';
+	color: #d0d0d0;
+	font-size: 16px;
+	font-style: italic;
+
+}
+
+.pigbuller-1-2, .pigbuller-2 p {
+	font-family: 'open_sanslight';
+	color: #787878;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+footer {
+	padding: 40px 0;
+	background: url(../img/footer.png) no-repeat;
+}
+
+.niz-menu {
+	float: left;
+}
+
+footer p {
+	float: right;
+	margin-top: 8px;
+	font-family: 'open_sanslight';
+	font-size: 12px;
+	color: #fff;
+}
+
+footer span {
+	font-family: 'open_sansextrabold';
+}
+
+.niz-menu li {
+	float: left;
+	margin-right: 45px;
+}
+
+.niz-menu a {
+	font-family: 'league_gothicregular';
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.niz-menu a:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em #fff;
 }
