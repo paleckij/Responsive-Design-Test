@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+a {
+	cursor: pointer;
+}
+
 @font-face {
     font-family: 'league_gothicregular';
     src: url('../fonts/league-gothic/leaguegothic-regular-webfont.woff2') format('woff2'),
@@ -79,7 +83,7 @@ header img {
 
 .verx-menu li:hover {
     text-shadow: 1px 1px 2px black, 0 0 1em #fff;
-}
+ }
 
 .banner {
 	background: rgba(0, 0, 0, 0.2);
@@ -259,13 +263,13 @@ h1 {
 	display: inline-block;
     border: 1px solid #fff;
     margin-right: 5px;
-    background: yellow;
+    background: #edbfff;
     width: 19px; height: 19px;
     border-radius: 50%;
 }
 
 li.active {
-	background: #000;
+	background: #454545;
 }
 
 .updates {
